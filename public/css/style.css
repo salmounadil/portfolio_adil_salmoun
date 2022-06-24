@@ -1,0 +1,10 @@
+#imgmaphoto{
+    width:400px;
+    border-radius: 50%;
+        filter: grayscale(1) blur(2px);
+}
+      
+
+#presentation{
+    background-image: url(../images/imageportfolio.jpg);
+}
