@@ -297,3 +297,200 @@ body{
             /* animation-direction: alternate; */
         }
 
+        #titre{
+            font-size: 180%;
+            font-weight: bold;
+            position: absolute;
+            top:76%;
+            left: 25%;
+            z-index: 9;
+        }
+
+        .hhh{
+            /* test */
+            opacity: 0;
+            animation-name: chgt-opacity ;
+            animation-duration: 5s;
+            animation-timing-function: ease;
+            animation-delay: 8.5s;
+            animation-iteration-count: 1;
+
+            -moz-animation-name: chgt-opacity ;
+            -moz-animation-duration: 5s;
+            -moz-animation-timing-function: ease;
+            -moz-animation-delay: 8.5s;
+            -moz-animation-iteration-count: 1;
+
+            -o-animation-name: chgt-opacity ;
+            -o-animation-duration: 5s;
+            -o-animation-timing-function: ease;
+            -o-animation-delay: 8.5s;
+            -o-animation-iteration-count: 1;
+
+            -webkit-animation-name: chgt-opacity ;
+            -webkit-animation-duration: 5s;
+            -webkit-animation-timing-function: ease;
+            -webkit-animation-delay: 8.5s;
+            -webkit-animation-iteration-count: 1;
+            /* animation-direction: alternate; */
+        }
+
+        .fff{
+            /* test */
+            opacity: 0;
+            animation-name: chgt-opacity ;
+            animation-duration: 4.75s;
+            animation-timing-function: ease;
+            animation-delay: 8.75s;
+            animation-iteration-count: 1;
+
+            -moz-animation-name: chgt-opacity ;
+            -moz-animation-duration: 4.75s;
+            -moz-animation-timing-function: ease;
+            -moz-animation-delay: 8.75s;
+            -moz-animation-iteration-count: 1;
+
+            -o-animation-name: chgt-opacity ;
+            -o-animation-duration: 4.75s;
+            -o-animation-timing-function: ease;
+            -o-animation-delay: 8.75s;
+            -o-animation-iteration-count: 1;
+
+            -webkit-animation-name: chgt-opacity ;
+            -webkit-animation-duration: 4.75s;
+            -webkit-animation-timing-function: ease;
+            -webkit-animation-delay: 8.75s;
+            -webkit-animation-iteration-count: 1;
+            /* animation-direction: alternate; */
+        }
+
+        .eee{
+            /* test */
+            opacity: 0;
+            animation-name: chgt-opacity ;
+            animation-duration: 4.5s;
+            animation-timing-function: ease;
+            animation-delay: 9s;
+            animation-iteration-count: 1;
+
+            -moz-animation-name: chgt-opacity ;
+            -moz-animation-duration: 4.5s;
+            -moz-animation-timing-function: ease;
+            -moz-animation-delay: 9s;
+            -moz-animation-iteration-count: 1;
+
+            -o-animation-name: chgt-opacity ;
+            -o-animation-duration: 4.5s;
+            -o-animation-timing-function: ease;
+            -o-animation-delay: 9s;
+            -o-animation-iteration-count: 1;
+
+            -webkit-animation-name: chgt-opacity ;
+            -webkit-animation-duration: 4.5s;
+            -webkit-animation-timing-function: ease;
+            -webkit-animation-delay: 9s;
+            -webkit-animation-iteration-count: 1;
+            /* animation-direction: alternate; */
+        }
+
+        .ggg{
+            /* test */
+            opacity: 0;
+            animation-name: chgt-opacity ;
+            animation-duration: 4.25s;
+            animation-timing-function: ease;
+            animation-delay: 9.25s;
+            animation-iteration-count: 1;
+
+            -moz-animation-name: chgt-opacity ;
+            -moz-animation-duration: 4.25s;
+            -moz-animation-timing-function: ease;
+            -moz-animation-delay: 9.25s;
+            -moz-animation-iteration-count: 1;
+
+            -o-animation-name: chgt-opacity ;
+            -o-animation-duration: 4.25s;
+            -o-animation-timing-function: ease;
+            -o-animation-delay: 9.25s;
+            -o-animation-iteration-count: 1;
+
+            -webkit-animation-name: chgt-opacity ;
+            -webkit-animation-duration: 4.25s;
+            -webkit-animation-timing-function: ease;
+            -webkit-animation-delay: 9.25s;
+            -webkit-animation-iteration-count: 1;
+            /* animation-direction: alternate; */
+        }
+
+        #entrer{
+            font-size: 250%;
+            font-weight: bold;
+            position: absolute;
+            top: 75%;
+            left: 38%;
+            z-index: 8;
+        }
+
+        @-webkit-keyframes chgt-opacity1{
+            0%{opacity: 0;}
+            100%{opacity:1}
+        }
+
+        .jjj,.kkk,.iii{
+            /* test */
+            opacity: 0;
+            animation-name: chgt-opacity1 ;
+            animation-duration: 2s;
+            animation-timing-function: ease;
+            animation-delay: 13.5s;
+            animation-iteration-count: infinite;
+            
+
+            -moz-animation-name: chgt-opacity1 ;
+            -moz-animation-duration: 2s;
+            -moz-animation-timing-function: ease;
+            -moz-animation-delay: 13.5s;
+            -moz-animation-iteration-count: infinite;
+
+            -o-animation-name: chgt-opacity1 ;
+            -o-animation-duration: 2s;
+            -o-animation-timing-function: ease;
+            -o-animation-delay: 13.5s;
+            -o-animation-iteration-count: infinite;
+
+            -webkit-animation-name: chgt-opacity1 ;
+            -webkit-animation-duration: 2s;
+            -webkit-animation-timing-function: ease;
+            -webkit-animation-delay: 13.5s;
+            -webkit-animation-iteration-count: infinite;
+            /* animation-direction: alternate; */
+        }
+        /* .jjj{ */
+            /* test */
+            /* opacity: 0;
+            animation-name: chgt-opacity1 ;
+            animation-duration: 2s;
+            animation-timing-function: ease;
+            animation-delay: 13.5s;
+            animation-iteration-count: infinite;
+            
+
+            -moz-animation-name: chgt-opacity1 ;
+            -moz-animation-duration: 2s;
+            -moz-animation-timing-function: ease;
+            -moz-animation-delay: 13.5s;
+            -moz-animation-iteration-count: infinite;
+
+            -o-animation-name: chgt-opacity1 ;
+            -o-animation-duration: 2s;
+            -o-animation-timing-function: ease;
+            -o-animation-delay: 13.5s;
+            -o-animation-iteration-count: infinite;
+
+            -webkit-animation-name: chgt-opacity1 ;
+            -webkit-animation-duration: 2s;
+            -webkit-animation-timing-function: ease;
+            -webkit-animation-delay: 13.5s;
+            -webkit-animation-iteration-count: infinite;
+            
+        } */
