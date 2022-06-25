@@ -1,10 +1,299 @@
-#imgmaphoto{
-    width:400px;
-    border-radius: 50%;
-        filter: grayscale(1) blur(2px);
+body{
+    background-image: url(../images/fondbody.jpg);
+    background-size: cover;
+    font-family: 'prend';
 }
-      
 
-#presentation{
-    background-image: url(../images/imageportfolio.jpg);
+#imgtableau{
+    width: 25%;
+    z-index: 4;
+    position: absolute;
+    top: 1%;
+    right: 40%;
+    left: 37%;
+    bottom: 0;
+    filter: brightness(0.6)contrast(150%);
+    margin-left: auto;
+    margin-right: auto;
+    
+    
 }
+#divtableau{
+    text-align: center;
+    
+}    
+
+#imgphoto{
+    width: 18%;
+  position: absolute;
+    left: 40%;
+    z-index: 2;
+    top: 8%;
+    filter: sepia(50%) blur(1px)contrast(170%) brightness(0.4);  
+}
+#imgjoconde{
+    width: 18%;
+    height:55%;
+    position: absolute;
+    top: 6%;
+    left: 40%;
+}
+
+#imgjoconde,#imgphoto,#imgtableau{
+    display: none;
+}
+
+/* #divtableau:hover #imgjoconde{
+    display: block;
+}
+
+#divtableau:hover #imgphoto{
+    display: block;
+}
+#divtableau:hover #imgtableau{
+    display: block;
+}
+ */
+ #imgtableau, #imgjoconde{
+    animation:3s ease 0s normal forwards 1 fadein;
+    -webkit-animation:3s ease 0s normal forwards 1 fadein;
+    opacity:0
+    }
+    
+    @keyframes fadein{from{opacity:0}
+    to{opacity:1}
+    }
+    
+    @-webkit-keyframes fadein{from{opacity:0}
+    to{opacity:1}
+    }
+
+ #imgphoto{
+    animation:3s ease 1s normal forwards 1 fadein;
+    -webkit-animation:3s ease 1s normal forwards 1 fadein;
+    opacity:0
+    }
+    
+    @keyframes fadein{from{opacity:0}
+    to{opacity:1}
+    }
+    
+    @-webkit-keyframes fadein{from{opacity:0}
+    to{opacity:1}
+    }
+
+    #imgparchemin{
+        animation:3s ease 2.5s normal forwards 1 fadein;
+        -webkit-animation:3s ease 2.5s normal forwards 1 fadein;
+        opacity:0
+        }
+        
+        @keyframes fadein{from{opacity:0}
+        to{opacity:1}
+        }
+        
+        @-webkit-keyframes fadein{from{opacity:0}
+        to{opacity:1}
+        }
+
+    #imgparchemin{
+        width: 90%;
+        position: absolute;
+        left: 3%;
+        right: 3%;
+        
+        margin-left: auto;
+        margin-right: auto;
+
+        top:58%;
+        z-index: 5;
+    }
+
+    #monnom{
+        font-size: 220%;
+        font-weight: bold;
+        position: absolute;
+        top: 76%;
+        left: 30%;
+        z-index: 10;
+        width: 80%;
+
+    }
+
+    /* span{
+        margin-left: 0.5%;
+        margin-right: 0.5%;
+    } */
+    @font-face {
+        font-family: 'prend';
+        src: url('../css/DiplomataSC-Regular.ttf');
+    }
+
+    /* .aaa,.bbb,.ccc,.ddd{
+        display: none;
+    } */
+
+
+
+        .espace{
+            visibility: hidden;
+
+        }
+        span{
+            margin: 0;
+        
+        }
+        
+
+        .ddd{
+            /* test */
+            opacity: 0;
+            animation-name: chgt-opacity ;
+            animation-duration: 5s;
+            animation-timing-function: ease;
+            animation-delay: 3.5s;
+            animation-iteration-count: 1;
+
+            -moz-animation-name: chgt-opacity ;
+            -moz-animation-duration: 5s;
+            -moz-animation-timing-function: ease;
+            -moz-animation-delay: 3.5s;
+            -moz-animation-iteration-count: 1;
+
+            -o-animation-name: chgt-opacity ;
+            -o-animation-duration: 5s;
+            -o-animation-timing-function: ease;
+            -o-animation-delay: 3.5s;
+            -o-animation-iteration-count: 1;
+
+            -webkit-animation-name: chgt-opacity ;
+            -webkit-animation-duration: 5s;
+            -webkit-animation-timing-function: ease;
+            -webkit-animation-delay: 3.5s;
+            -webkit-animation-iteration-count: 1;
+            /* animation-direction: alternate; */
+        }
+
+            @-webkit-keyframes chgt-opacity{
+                0%{opacity: 0;}
+                50%{opacity:1}
+                100%{opacity:0}
+            }
+
+            /* fin test */
+
+              /* animation:3s ease 3.5s normal forwards 1 fadein;
+            -webkit-animation:3s ease 3.5s normal forwards 1 fadein;
+            opacity:0
+            }
+            
+            @keyframes fadein{from{opacity:0}
+            to{opacity:1} to{opacity: 0;}
+            }
+            
+            @-webkit-keyframes fadein{from{opacity:0}
+            to{opacity:1} to{opacity: 0;}   */
+            
+
+            /* .ddd{
+                animation:3s ease 6.5s normal forwards 0 fadein2;
+                -webkit-animation:3s ease 6.5s normal forwards 0 fadein2;
+                opacity:1
+                }
+                
+                @keyframes fadein2{from{opacity:1}
+                to{opacity:0}
+                }
+                
+                @-webkit-keyframes fadein2{from{opacity:1}
+                to{opacity:0}
+                }
+          */
+
+          .bbb{
+            /* test */
+            opacity: 0;
+            animation-name: chgt-opacity ;
+            animation-duration: 4.75s;
+            animation-timing-function: ease;
+            animation-delay: 3.75s;
+            animation-iteration-count: 1;
+
+            -moz-animation-name: chgt-opacity ;
+            -moz-animation-duration: 4.75s;
+            -moz-animation-timing-function: ease;
+            -moz-animation-delay: 3.75s;
+            -moz-animation-iteration-count: 1;
+
+            -o-animation-name: chgt-opacity ;
+            -o-animation-duration: 4.75s;
+            -o-animation-timing-function: ease;
+            -o-animation-delay: 3.75s;
+            -o-animation-iteration-count: 1;
+
+            -webkit-animation-name: chgt-opacity ;
+            -webkit-animation-duration: 4.75s;
+            -webkit-animation-timing-function: ease;
+            -webkit-animation-delay: 3.75s;
+            -webkit-animation-iteration-count: 1;
+            /* animation-direction: alternate; */
+        }
+
+        .aaa{
+            /* test */
+            opacity: 0;
+            animation-name: chgt-opacity ;
+            animation-duration: 4.5s;
+            animation-timing-function: ease;
+            animation-delay: 4s;
+            animation-iteration-count: 1;
+
+            -moz-animation-name: chgt-opacity ;
+            -moz-animation-duration: 4.5s;
+            -moz-animation-timing-function: ease;
+            -moz-animation-delay: 4s;
+            -moz-animation-iteration-count: 1;
+
+            -o-animation-name: chgt-opacity ;
+            -o-animation-duration: 4.5s;
+            -o-animation-timing-function: ease;
+            -o-animation-delay: 4s;
+            -o-animation-iteration-count: 1;
+
+            -webkit-animation-name: chgt-opacity ;
+            -webkit-animation-duration: 4.5s;
+            -webkit-animation-timing-function: ease;
+            -webkit-animation-delay: 4s;
+            -webkit-animation-iteration-count: 1;
+            /* animation-direction: alternate; */
+        }
+
+        .ccc{
+            /* test */
+            opacity: 0;
+            animation-name: chgt-opacity ;
+            animation-duration: 4.25s;
+            animation-timing-function: ease;
+            animation-delay: 4.25s;
+            animation-iteration-count: 1;
+
+            -moz-animation-name: chgt-opacity ;
+            -moz-animation-duration: 4.25s;
+            -moz-animation-timing-function: ease;
+            -moz-animation-delay: 4.25s;
+            -moz-animation-iteration-count: 1;
+
+            -o-animation-name: chgt-opacity ;
+            -o-animation-duration: 4.25s;
+            -o-animation-timing-function: ease;
+            -o-animation-delay: 4.25s;
+            -o-animation-iteration-count: 1;
+
+            -webkit-animation-name: chgt-opacity ;
+            -webkit-animation-duration: 4.25s;
+            -webkit-animation-timing-function: ease;
+            -webkit-animation-delay: 4.25s;
+            -webkit-animation-iteration-count: 1;
+            /* animation-direction: alternate; */
+        }
+
