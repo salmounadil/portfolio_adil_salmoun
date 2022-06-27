@@ -6,7 +6,6 @@
 
 // };
 
-window.onload = app;
 
 var lien = document.getElementById('parchemin');
 

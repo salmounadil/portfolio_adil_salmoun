@@ -39,9 +39,9 @@ body{
     left: 40%;
 }
 
-#imgjoconde,#imgphoto,#imgtableau{
+/* #imgjoconde,#imgphoto,#imgtableau{
     display: none;
-}
+} */
 
 /* #divtableau:hover #imgjoconde{
     display: block;
@@ -304,6 +304,7 @@ body{
             top:76%;
             left: 25%;
             z-index: 9;
+            
         }
 
         .hhh{
